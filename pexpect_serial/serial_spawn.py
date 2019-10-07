@@ -67,3 +67,4 @@ class SerialSpawn(spawn):
 
         b = self._encoder.encode(s, final=False)
         return self.ser.write(b)
+
